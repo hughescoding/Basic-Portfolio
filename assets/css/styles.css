@@ -7,17 +7,18 @@ box-sizing: border-box;
 
 header {
     padding: 20px;
-    width: 70%;
+    width: 100%;
     color: #ccc;
+    margin-bottom: 50px;
     background: #ffffff;
-    border-color: #cccccc;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-style: hidden hidden solid hidden;
+    border-color: #cccccc
   }
-  #name {
+#name {
     padding: 20px;
     margin-top: 0px;
-    margin-left: 100px;
-    width: 180px;
+    margin-left: 460px;
+    width: 240px;
     color: #fff;
     background:#4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -31,9 +32,11 @@ header {
 }
 h2 {
     padding-left: 20px;
+    color: #4aaaa5;
 }
 #nav {
     margin-top: 30px;
+    margin-right: 650px;
     float: right;
     color: #4aaaa5;
     font-weight: bold;
@@ -46,14 +49,14 @@ h2 {
     border: 3px solid #dddddd;
     padding: 20px;
     margin-top: 20px;
-    margin-left: 120px;
+    margin-left: 480px;
+    margin-bottom: 100px;
     line-height: 1.6;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 #content-text {
     padding: 10px; 
-    clear: left;
-   
+    clear: left; 
 }
 #photo {
     float: left;
@@ -64,6 +67,15 @@ h2 {
 .foot {
     clear:both;
     padding: 20px;
-    background-color: rgb(122, 119, 119);
+    background-color: #666666;
+    text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-style: solid hidden hidden hidden;
+    border-top-width: 7px;
+    border-color: #4aaaa5
+   
+  }
+  #background {
+    background-image: url(/assets/images/gravel.png);
+    align-items: center;
   }
