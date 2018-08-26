@@ -5,7 +5,7 @@ padding: 0;
 box-sizing: border-box;  
 }
 html, body {
-    height: 100%;
+    height: 92%;
     margin: 0;
 }
 .background {
@@ -33,6 +33,7 @@ header {
     width: 240px;
     color: #fff;
     background:#4aaaa5;
+    text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
     font-size: 20pt;
@@ -50,10 +51,10 @@ h2 {
 }
 #nav {
     margin-top: 30px;
-    margin-right: 325px;
+    margin-right: 440px;
     float: right;
-    color: #4aaaa5;
-    font-weight: bold;
+    color: #cccccc;
+    font-weight: lighter;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     border: 5px;
 }
@@ -66,7 +67,7 @@ h2 {
     margin-left: 480px;
     margin-bottom: 0px;
     line-height: 1.6;
-    background-color: solid #ffffff;
+    background-color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 #content-text {
@@ -90,4 +91,13 @@ h2 {
     border-top-width: 7px;
     border-color: #4aaaa5;
   }
-  
+  .button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
